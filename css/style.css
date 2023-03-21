@@ -343,6 +343,8 @@ body {
 	padding: 12px 24px 12px 24px;
 	font-family: "Roboto", sans-serif;
 	cursor: pointer;
+	border: 1px solid var(--footer-text-color);
+	border-radius: 4px;
 	color: var(--logo-color);
 	background-color: var(--secondary-background-color);
 }
