@@ -64,7 +64,6 @@ body {
 	display: flex;
 	align-items: center;
 	padding: 24px 15px;
-	border-bottom: 1px solid var(--footer-text-color);
 }
 
 .nav {
@@ -74,6 +73,7 @@ body {
 
 .header {
 	font-style: normal;
+	border-bottom: 1px solid var(--footer-text-color);
 }
 
 .logo {
@@ -136,7 +136,6 @@ body {
 /* ============================== HERO ======================== */
 
 .hero {
-	width: 1440px;
 	margin: 0 auto;
 	padding-top: 188px;
 	padding-bottom: 188px;
@@ -186,6 +185,10 @@ body {
 
 /*============================= FEATURES =================================*/
 
+.features-list-item {
+	width: 264px;
+}
+
 .feauters-list {
 	display: flex;
 	gap: 24px;
@@ -204,9 +207,12 @@ body {
 
 /* ============================ WHAT ARE WE DOING ========================== */
 
+.products {
+	padding-bottom: 116px;
+}
+
 .list {
 	display: flex;
-	gap: 24px;
 }
 
 .products-title {
@@ -237,6 +243,11 @@ body {
 	gap: 24px;
 }
 
+.team-text {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
 .team-title {
 	font-weight: 700;
 	font-size: 36px;
@@ -254,14 +265,12 @@ body {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	text-align: center;
-	margin-top: 32px;
 	color: var(--secondary-text-color);
 }
 
 .team-position {
 	text-align: center;
 	margin-top: 8px;
-	margin-bottom: 32px;
 	color: var(--body-text-color);
 }
 /*================================ /OUR TEAM ===============================*/
@@ -279,6 +288,7 @@ body {
 
 .footer-description {
 	width: 264px;
+	margin-top: 16px;
 	color: var(--footer-text-color);
 }
 
@@ -310,10 +320,14 @@ body {
 
 /*============================== PORTFOLIO ===============================*/
 
+.portfolio {
+	padding-top: 93px;
+	padding-bottom: 120px;
+}
+
 .btn-section {
 	display: flex;
 	justify-content: center;
-	margin-top: 96px;
 	margin-bottom: 72px;
 	gap: 24px;
 }
@@ -326,6 +340,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
+	padding: 12px 24px 12px 24px;
 	font-family: "Roboto", sans-serif;
 	cursor: pointer;
 	color: var(--logo-color);
@@ -342,7 +357,6 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 24px;
-	padding-bottom: 120px;
 }
 
 .project-list-item {
@@ -350,8 +364,8 @@ body {
 	border-bottom: 1px solid var(--footer-text-color);
 }
 
-.project-list-item:last-child {
-	margin-bottom: 48px;
+.project-position {
+	margin: 32px auto;
 }
 
 .project-title {
@@ -359,12 +373,10 @@ body {
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	margin-top: 32px;
 	margin-bottom: 8px;
 	color: var(--secondary-text-color);
 }
 
 .project-text {
-	margin-bottom: 32px;
 	color: var(--body-text-color);
 }
