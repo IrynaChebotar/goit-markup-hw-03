@@ -224,6 +224,11 @@ body {
 	text-transform: capitalize;
 	color: var(--secondary-text-color);
 }
+
+.products-item {
+	gap: 24px;
+}
+
 /* ============================ /WHAT ARE WE DOING ========================== */
 
 /*================================ OUR TEAM ===============================*/
@@ -278,12 +283,9 @@ body {
 /*================================ FOOTER ===============================*/
 
 .footer {
-	background-color: var(--secondary-text-color);
-}
-
-.section-footer {
 	padding-top: 100px;
 	padding-bottom: 100px;
+	background-color: var(--secondary-text-color);
 }
 
 .footer-description {
@@ -363,11 +365,15 @@ body {
 
 .project-list-item {
 	margin-bottom: 48px;
-	border-bottom: 1px solid var(--footer-text-color);
 }
 
 .project-position {
-	margin: 32px auto;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border: 1px solid var(--footer-text-color);
+	border-top: none;
 }
 
 .project-title {
